@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #1e1e1e;
+}
+
+header {
+    background: #274c77; /* Romanian soft blue */
+    color: white;
+    padding: 0.6rem 2rem;
+}
+
+nav {
+    margin-top: 0.25rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #f5e663; /* Soft yellow highlight on hover */
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    flex: 3;
+    background: white;
+    padding: 1rem;
+    border-radius: 0px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+}
+
+aside {
+    flex: 1;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 0px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    background: #274c77;
+    color: #f5e663;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+    font-weight: 500;
+}
+
+a {
+    color: #d62828; /* Subtle Romanian red for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
